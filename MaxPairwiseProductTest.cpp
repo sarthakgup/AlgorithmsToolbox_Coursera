@@ -15,7 +15,7 @@ long long MaxPairwiseProduct(const vector<int>& numbers)
         {
             if(((long long)numbers[i])*numbers[j] > result)
             {
-                result = numbers[i]*numbers[j];
+                result = ((long long)numbers[i])*numbers[j];
             }
         }
     }
